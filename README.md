@@ -15,6 +15,7 @@ The **Flight Scheduler** is a web application that allows users to manage flight
 ✅ Delete flights  
 
 ## **📂 Project Structure**
+```
 backend/
 │── backend/           # Django project settings
 │    ├── __init__.py    
@@ -35,4 +36,6 @@ backend/
 │
 │── manage.py          # Django management script
 │── db.sqlite3         # Database (if using SQLite)
+```
 
+---
