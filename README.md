@@ -1,41 +1,54 @@
-# **Flight Scheduler CRUD App ✈️**
+## ✈️ Flight Scheduler
 
-## **📌 Overview**
-The **Flight Scheduler** is a web application that allows users to manage flight schedules using a **Django REST API (backend)** and **React.js (frontend)**.
+A web application for managing flight schedules using Django (backend) and React.js (frontend).
 
-## **🛠️ Tech Stack**
-- **Frontend:** React.js, React Router  
-- **Backend:** Django, Django REST Framework  
-- **Database:** PostgreSQL (or SQLite for development)  
+---
 
-## **🚀 Features**
+## 🚀 Features
+
 ✅ View all scheduled flights  
 ✅ Add a new flight  
 ✅ Update flight details  
 ✅ Delete flights  
 
-## **📂 Project Structure**
+---
+
+## 📂 Project Structure
+
 ```
-backend/
-│── backend/           # Django project settings
-│    ├── __init__.py    
-│    ├── asgi.py        
-│    ├── settings.py    
-│    ├── urls.py        
-│    ├── wsgi.py        
+flight-scheduler/
+├── backend/               # Django Backend
+│   ├── backend/           # Django project settings
+│   │   ├── __pycache__/  
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   ├── __init__.py
+│   │
+│   ├── flights/           # Flight app (Django)
+│   │   ├── __pycache__/  
+│   │   ├── migrations/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   ├── views.py
+│   │
+│   ├── db.sqlite3         # SQLite database
+│   ├── manage.py          # Django management script
 │
-│── flights/           # Django app for flight scheduling
-│    ├── migrations/    
-│    ├── __init__.py    
-│    ├── admin.py       
-│    ├── apps.py        
-│    ├── models.py      
-│    ├── serializers.py 
-│    ├── views.py       
-│    ├── urls.py        
+├── frontend/              # React Frontend
+│   ├── node_modules/      
+│   ├── public/            
+│   ├── src/               # React source files
+│   ├── .gitignore         
+│   ├── package-lock.json  
+│   ├── package.json       
+│   ├── README.md          # Project Documentation
 │
-│── manage.py          # Django management script
-│── db.sqlite3         # Database (if using SQLite)
-```
+└── venv/                  # Virtual environment (Django)
 
 ---
+```
