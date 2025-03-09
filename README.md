@@ -17,21 +17,21 @@ The **Flight Scheduler** is a web application that allows users to manage flight
 ## **📂 Project Structure**
 backend/
 │── backend/           # Django project settings
-│   ├── __init__.py    
-│   ├── asgi.py        
-│   ├── settings.py    
-│   ├── urls.py        
-│   ├── wsgi.py        
+│    ├── __init__.py    
+│    ├── asgi.py        
+│    ├── settings.py    
+│    ├── urls.py        
+│    ├── wsgi.py        
 │
 │── flights/           # Django app for flight scheduling
-│   ├── migrations/    
-│   ├── __init__.py    
-│   ├── admin.py       
-│   ├── apps.py        
-│   ├── models.py      
-│   ├── serializers.py 
-│   ├── views.py       
-│   ├── urls.py        
+│    ├── migrations/    
+│    ├── __init__.py    
+│    ├── admin.py       
+│    ├── apps.py        
+│    ├── models.py      
+│    ├── serializers.py 
+│    ├── views.py       
+│    ├── urls.py        
 │
 │── manage.py          # Django management script
 │── db.sqlite3         # Database (if using SQLite)
