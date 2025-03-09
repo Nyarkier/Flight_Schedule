@@ -15,4 +15,24 @@ The **Flight Scheduler** is a web application that allows users to manage flight
 ✅ Delete flights  
 
 ## **📂 Project Structure**
-flight-scheduler/ ├── backend/ # Django Backend │ ├── flights/ # Flight app (Django) │ ├── backend/ # Django project settings │ ├── manage.py # Django management script │ ├── frontend/ # React Frontend │ ├── src/ # React source files │ │ ├── components/ # Reusable components │ │ ├── pages/ # Page components │ │ ├── services/ # API services │ │ ├── App.js # Main React component │ │ ├── index.js # React entry point │ └── README.md # Project Documentation
+backend/
+│── backend/           # Django project settings
+│   ├── __init__.py    
+│   ├── asgi.py        
+│   ├── settings.py    
+│   ├── urls.py        
+│   ├── wsgi.py        
+│
+│── flights/           # Django app for flight scheduling
+│   ├── migrations/    
+│   ├── __init__.py    
+│   ├── admin.py       
+│   ├── apps.py        
+│   ├── models.py      
+│   ├── serializers.py 
+│   ├── views.py       
+│   ├── urls.py        
+│
+│── manage.py          # Django management script
+│── db.sqlite3         # Database (if using SQLite)
+
